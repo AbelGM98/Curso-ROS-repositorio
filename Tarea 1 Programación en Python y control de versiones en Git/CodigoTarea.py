@@ -1,4 +1,3 @@
-
 class Robot:
     Articulaciones_Robot = ['Base_Robot', 'art1', 'art2', 'art3', 'art4', 'art5']
     ValorArt_Robot = [0.0, 2.0, 3.0, 1.0, 2.0, 3.0]
@@ -15,17 +14,17 @@ class Robot:
 
     def set_name(robot_name):
         robot_name.nombre_Robot='Nuevo_Robot'
+        return robot_name
 
     def get_articulacion(articulacion_nombre):
         return articulacion_nombre.Articulaciones_Robot
 
-    def get_Pose(Pose_robot):
+    def get_pose(Pose_robot):
         return Pose_robot.Pose
 
-if __name__=='__main__':
-
-    def main():
-        print()
-
-        return 0
-
+#  if __name__=='__main__':
+    def main(self):
+        self.Articulaciones_Robot = ['Base_Robot', 'art1', 'art2', 'art3', 'art4', 'art5']
+        self.Pose = [0.0, 2.0, 3.0, 1.0, 2.0, 3.0]
+        self.nombre_Robot = 'RobotEjemplo'
+        print(f"Las caracteristicas del robot son. Articulaciones: {self.nombre_Robot} , pose: {self.Pose} y su nombre es: {self.nombre_Robot}")
