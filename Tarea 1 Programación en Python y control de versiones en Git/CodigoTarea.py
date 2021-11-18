@@ -22,9 +22,19 @@ class Robot:
     def get_pose(Pose_robot):
         return Pose_robot.Pose
 
-#  if __name__=='__main__':
-    def main(self):
+ #   def main(self):
+ #       self.Articulaciones_Robot = ['Base_Robot', 'art1', 'art2', 'art3', 'art4', 'art5']
+  #      self.Pose = [0.0, 2.0, 3.0, 1.0, 2.0, 3.0]
+   #     self.nombre_Robot = 'RobotEjemplo'
+   #     print(f"Las caracteristicas del robot son. Articulaciones: {self.nombre_Robot} , pose: {self.Pose} y su nombre es: {self.nombre_Robot}")
+        
+if __name__ == '__main__':
+    try:
+        main(self)
         self.Articulaciones_Robot = ['Base_Robot', 'art1', 'art2', 'art3', 'art4', 'art5']
         self.Pose = [0.0, 2.0, 3.0, 1.0, 2.0, 3.0]
         self.nombre_Robot = 'RobotEjemplo'
         print(f"Las caracteristicas del robot son. Articulaciones: {self.nombre_Robot} , pose: {self.Pose} y su nombre es: {self.nombre_Robot}")
+
+        
+        pass
